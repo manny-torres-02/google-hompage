@@ -1,0 +1,65 @@
+/* CSS STyYLING */
+
+/*BODY*/
+body {
+margin:0;
+font-family:arial,sans-serif;
+color: grey;
+}
+
+/* Nav BAr  */
+.company-info, .user{
+    display:inline-block;
+}
+.company-info{
+    float: left;
+    text-align:left;
+}
+.user{
+    float:right;
+}
+ul {
+    list-style-type: none;
+    padding-left:10px;
+    padding-right:10px
+}
+li {
+    display: inline;
+    text-decoration:none;
+    font-size:12px;
+    padding-left:15px;
+}
+
+a {
+    text-decoration: none;
+    color:grey;
+}
+/*Logo*/
+
+.logo {
+    text-align:center;
+}
+
+img {
+    padding-top: 150px;
+    margin-left: 100px;
+}
+
+.input-bar {
+text-align:center
+}
+
+.search {
+    text-align:center;
+}
+
+footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /* height: 100px; */
+    width: 100%;
+    overflow: hidden;
+
+} 
